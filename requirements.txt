@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
-python-jose[cryptography]
+pyjwt[crypto]
 passlib[bcrypt]
 python-multipart
 pydantic
@@ -9,3 +9,4 @@ sqlalchemy
 python-dotenv
 bcrypt
 pydantic[email]
+cryptography
